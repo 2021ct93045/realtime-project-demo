@@ -8,8 +8,7 @@ import java.util.List;
 @RestController
 public class CustomerController {
     @GetMapping("/getAllCustomers")
-    public List<Customer> getAllCustomers(){
-        System.out.println("bad code checking for SonarQube code quality");
+    public List<Customer> getAllCustomers(){       
         Customer customer1=new Customer(100,"sachin");
         Customer customer2=new Customer(200,"ashish");
         return Arrays.asList(customer1,customer2);
