@@ -9,8 +9,9 @@ import java.util.List;
 public class CustomerController {
     @GetMapping("/getAllCustomers")
     public List<Customer> getAllCustomers(){
-        Customer customer1=new Customer(100,"vamsikrm");
-        Customer customer2=new Customer(200,"harsha");
+        System.out.println("bad code checking for SonarQube code quality");
+        Customer customer1=new Customer(100,"sachin");
+        Customer customer2=new Customer(200,"ashish");
         return Arrays.asList(customer1,customer2);
     }
 }
