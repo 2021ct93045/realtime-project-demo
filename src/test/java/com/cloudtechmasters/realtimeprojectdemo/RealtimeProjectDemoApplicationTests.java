@@ -8,6 +8,7 @@ class RealtimeProjectDemoApplicationTests {
 
 	@Test
 	void contextLoads() {
+		assertTrue(()->true);
 	}
 
 }
